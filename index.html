@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tessellate Internal Portal</title>
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         :root {
             --mango: #FFAA00;
             --pink: #FF007F;
             --blue: #00A4B4;
+            --gold: #FFD700;
             --black: #1e1e1e;
             --darkGray: #2a2a2a;
             --white: #ffffff;
@@ -68,6 +67,15 @@
         .logo .e { color: var(--mango); }
         .logo .s { color: var(--blue); }
 
+        /* Sponsor Logo in Nav */
+        .nav-spon-logo {
+            height: 32px;
+            margin-left: 15px;
+            vertical-align: middle;
+            border-left: 1px solid #555;
+            padding-left: 15px;
+        }
+
         .logo-tag {
             font-size: 0.7rem;
             margin-left: 12px;
@@ -108,6 +116,9 @@
 
         .nav-btn-mango { border: 2px solid var(--mango); color: var(--white); }
         .nav-btn-mango.active { background-color: var(--mango); }
+
+        .nav-btn-gold { border: 2px solid var(--gold); color: var(--white); }
+        .nav-btn-gold.active { background-color: var(--gold); color: var(--black); }
 
         /* Mobile Menu */
         .mobile-btn {
@@ -263,6 +274,12 @@
             color: #888;
             font-size: 0.9rem;
         }
+        
+        .footer-spon-logo {
+            height: 60px;
+            margin-bottom: 25px;
+            display: inline-block;
+        }
 
         /* Media Queries */
         @media (max-width: 768px) {
@@ -270,6 +287,7 @@
             .mobile-btn { display: block; }
             h2 { font-size: 2.5rem; }
             .card-title { font-size: 1.6rem; }
+            .nav-spon-logo { height: 28px; padding-left: 10px; margin-left: 10px; }
         }
     </style>
 </head>
@@ -279,6 +297,7 @@
         <div class="nav-container">
             <div class="logo" onclick="app.setPage('day1')">
                 TESSELLATE
+                <img src="spon-logo.png" class="nav-spon-logo" alt="Sponsor">
             </div>
 
             <div class="desktop-nav">
@@ -288,6 +307,7 @@
                 <button class="nav-btn nav-btn-blue" onclick="app.setPage('day3')" id="btn-day3">Day 3</button>
                 <button class="nav-btn nav-btn-blue" onclick="app.setPage('day4')" id="btn-day4">Day 4</button>
                 <button class="nav-btn nav-btn-mango" onclick="app.setPage('heads')" id="btn-heads">Heads</button>
+                <button class="nav-btn nav-btn-gold" onclick="app.setPage('sponsors')" id="btn-sponsors">Sponsors</button>
                 <a href="https://calendar.google.com" target="_blank" style="margin-left: 15px; color: #aaa;"><i data-lucide="calendar" size="28"></i></a>
             </div>
 
@@ -297,17 +317,16 @@
         </div>
 
         <div id="mobile-menu">
-            <!-- Populated via JS -->
-        </div>
+            </div>
     </nav>
 
     <main>
         <div class="content-container" id="content-root">
-            <!-- Content injected here -->
-        </div>
+            </div>
     </main>
 
     <footer>
+        <img src="spon-logo.png" class="footer-spon-logo" alt="Sponsor Logo"><br>
         <p style="letter-spacing: 3px; margin-bottom: 15px; color: #555; font-weight: bold;">INTERNAL PORTAL • CMI TESSELLATE 2026</p>
         <div style="display: flex; justify-content: center; gap: 30px;">
             <a href="https://tessellate.cmi.ac.in/stems/" style="color: #aaa; text-decoration: none;">STEMS</a>
@@ -394,6 +413,20 @@
                             </div>
                         </div>`;
                     });
+                } else if (this.currentPage === 'sponsors') {
+                    // NEW: Special Sponsors Page Logic
+                    html += `<h2 style="color: var(--gold)">Our Partners</h2>`;
+                    html += `
+                        <div style="text-align: center; margin-top: 40px;">
+                            <div class="event-card" style="border-left: 6px solid var(--gold); display: inline-block; max-width: 500px; padding: 40px;">
+                                <h3 class="card-title" style="color: var(--gold); margin-bottom: 30px;">Title Sponsor</h3>
+                                <img src="spon-logo.png" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+                                <p class="description">We are proud to be supported by Michelin. Michelin is world's leading manifacturer of tyres and automobile parts. To mantain such excellence, one needs data and analysis. This makes Michelin the place to be for the top data science talent. And need not mention the ever prestigious Michelin star.</p>
+                                <p class = "description"> Thank you Michelin for sponsering us!</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
                 } else if (this.currentPage === 'ongoing') {
                     html += `<h2 style="color: var(--pink)">Ongoing</h2>`;
                     DATA.ongoing.forEach(event => { html += this.createEventCard(event); });
@@ -441,6 +474,7 @@
                         <button onclick="app.setPage('day4')" style="padding: 15px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--blue); font-weight: bold; font-family: var(--font-heading)">Day 4</button>
                     </div>
                     <button onclick="app.setPage('heads')" style="padding: 18px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--mango); font-weight: bold; font-size: 1.2rem; font-family: var(--font-heading)">Core Contacts</button>
+                    <button onclick="app.setPage('sponsors')" style="padding: 18px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--gold); font-weight: bold; font-size: 1.2rem; font-family: var(--font-heading)">Sponsors</button>
                 `;
             }
         };

@@ -2,17 +2,17 @@
   {
     "id": "o1",
     "title": "Treasure Hunt",
-    "description": "The multi-day campus mystery.",
-    "type": "CMI Only",
-    "contactPerson": "Sherlock (99999 88888)",
-    "location": "Campus Wide"
+    "description": "There is a coin hidden on campus. Find it! (You are allowed to compete in teams of any size but a majority of members must be CMI affiliated)",
+    "type": "open",
+    "contactPerson": "Arjun Maneesh Agarwal",
+    "location": "Campus Wide (or maybe more?)"
   },
     {
     "id": "o2",
     "title": "Scavenger Hunt",
-    "description": "The multi-day campus mystery.",
-    "type": "CMI Only",
-    "contactPerson": "Sherlock (99999 88888)",
-    "location": "Campus Wide"
+    "description": "This is not your elementary school's scavenger hunt. The list contains items that must be found in the style of a traditional scavenger hunt, but there are many other items that must be built, performed, written, programmed, drawn, eaten, designed, painted, solved, won, and (maybe) endured.\n Teams of 4 are allowed of which 3 have to be CMI affliated.\n Based on UChicago's Scav",
+    "type": "open",
+    "contactPerson": "Arjun Maneesh Agarwal, Vighnesh Sangle",
+    "location": "Campus Wide (technically World Wide)"
   }
 ]
