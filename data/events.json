@@ -1,0 +1,208 @@
+{
+    "day1": [
+        {
+            "title": "5 Minute Presentations",
+            "time": "10:00 - 14:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Estimathon",
+            "time": "14:00 - 15:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Neel's Movie Club Pirated Film Festival",
+            "time": "15:00 - 18:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "CMI vs IMSc Football",
+            "time": "15:30 - 17:30",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Quiz Night",
+            "time": "18:00 - 20:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Chess Clock Jenga",
+            "time": "20:00 - 21:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "DnD convention",
+            "time": "21:00 - 00:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        }
+    ],
+    "day2": [
+        {
+            "title": "Presentation Night (strictly non-academic)",
+            "time": "00:30 - 4:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Tug of War I",
+            "time": "9:00 - 14:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Anti-Thesis",
+            "time": "14:00 - 16:30",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Relay I",
+            "time": "14:00 - 15:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Cultural Night",
+            "time": "17:15 - 20:15",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Poker Night",
+            "time": "20:45 - 23:45",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "GeoGuesser Tournament",
+            "time": "23:45 - 01:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        }
+    ],
+    "day3": [
+        {
+            "title": "Murder Mystery Night",
+            "time": "1:30 - 4:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Tug of War II",
+            "time": "9:00 - 14:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Integration Bee I",
+            "time": "15:00 - 17:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "DJ Night",
+            "time": "19:00 - 24:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        }
+    ],
+    "day4": [
+        {
+            "title": "Balloon Battle Royale",
+            "time": "9:30 - 12:30",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Relay II",
+            "time": "13:45 - 14:45",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Integration Bee II",
+            "time": "15:00 - 17:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        },
+        {
+            "title": "Poetry Slam",
+            "time": "18:00 - 19:00",
+            "type": "open",
+            "location": "Main Hall",
+            "contactPerson": "Sherlock (99999 88888)",
+            "description": "The multi-day campus mystery.",
+            "link": ""
+        }
+    ]
+}

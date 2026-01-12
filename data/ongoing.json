@@ -1,0 +1,18 @@
+[
+  {
+    "id": "o1",
+    "title": "Treasure Hunt",
+    "description": "The multi-day campus mystery.",
+    "type": "CMI Only",
+    "contactPerson": "Sherlock (99999 88888)",
+    "location": "Campus Wide"
+  },
+    {
+    "id": "o2",
+    "title": "Scavenger Hunt",
+    "description": "The multi-day campus mystery.",
+    "type": "CMI Only",
+    "contactPerson": "Sherlock (99999 88888)",
+    "location": "Campus Wide"
+  }
+]

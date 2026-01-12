@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tessellate Internal Portal</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --mango: #FFAA00;
+            --pink: #FF007F;
+            --blue: #00A4B4;
+            --black: #1e1e1e;
+            --darkGray: #2a2a2a;
+            --white: #ffffff;
+            --font-heading: 'Jersey 20', sans-serif;
+            --font-body: 'Lexend', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--black);
+            color: var(--white);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar Styles */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(30, 30, 30, 0.98);
+            border-bottom: 2px solid #333;
+            padding: 15px 20px;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .logo .t { color: var(--pink); }
+        .logo .e { color: var(--mango); }
+        .logo .s { color: var(--blue); }
+
+        .logo-tag {
+            font-size: 0.7rem;
+            margin-left: 12px;
+            opacity: 0.6;
+            border: 1px solid #555;
+            padding: 2px 8px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+        }
+
+        .desktop-nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-btn {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            background: transparent;
+            outline: none;
+        }
+
+        .nav-btn.active {
+            color: var(--black);
+        }
+
+        .nav-btn-blue { border: 2px solid var(--blue); color: var(--white); }
+        .nav-btn-blue.active { background-color: var(--blue); }
+        
+        .nav-btn-pink { border: 2px solid var(--pink); color: var(--white); }
+        .nav-btn-pink.active { background-color: var(--pink); }
+
+        .nav-btn-mango { border: 2px solid var(--mango); color: var(--white); }
+        .nav-btn-mango.active { background-color: var(--mango); }
+
+        /* Mobile Menu */
+        .mobile-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: white;
+            padding: 10px;
+        }
+
+        #mobile-menu {
+            display: none;
+            position: fixed;
+            top: 70px;
+            left: 0;
+            right: 0;
+            background: #1e1e1e;
+            padding: 20px;
+            border-bottom: 2px solid #333;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 99;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        /* Content Layout */
+        main {
+            padding: 40px 20px;
+            flex: 1;
+            width: 100%;
+        }
+
+        .content-container {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-family: var(--font-heading);
+            font-size: 3.5rem;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* Card Styles */
+        .event-card {
+            background-color: var(--darkGray);
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            width: 100%;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .card-title {
+            margin: 0 0 8px 0;
+            font-family: var(--font-heading);
+            color: var(--mango);
+            font-size: 2rem;
+        }
+
+        .type-badge {
+            font-size: 0.75rem;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 4px;
+            white-space: nowrap;
+            color: var(--black);
+        }
+
+        .meta-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            color: #bbb;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .meta-item i {
+            margin-right: 8px;
+        }
+
+        .description {
+            color: #eee;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin: 0 0 20px 0;
+        }
+
+        .card-footer {
+            border-top: 1px solid #444;
+            padding-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .contact-pill {
+            display: flex;
+            align-items: center;
+            background: rgba(0,0,0,0.3);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .details-link {
+            color: var(--mango);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Committee styles */
+        .committee-card {
+            background-color: var(--darkGray);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .comm-role { color: var(--mango); font-family: var(--font-heading); font-size: 1.4rem; }
+        .comm-name { font-weight: bold; font-size: 1.2rem; }
+        .comm-actions { display: flex; gap: 20px; }
+        .comm-actions a { text-decoration: none; }
+
+        footer {
+            padding: 60px 20px;
+            text-align: center;
+            border-top: 2px solid #333;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .desktop-nav { display: none; }
+            .mobile-btn { display: block; }
+            h2 { font-size: 2.5rem; }
+            .card-title { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" onclick="app.setPage('day1')">
+                TESSELLATE
+            </div>
+
+            <div class="desktop-nav">
+                <button class="nav-btn nav-btn-pink" onclick="app.setPage('ongoing')" id="btn-ongoing">Ongoing</button>
+                <button class="nav-btn nav-btn-blue" onclick="app.setPage('day1')" id="btn-day1">Day 1</button>
+                <button class="nav-btn nav-btn-blue" onclick="app.setPage('day2')" id="btn-day2">Day 2</button>
+                <button class="nav-btn nav-btn-blue" onclick="app.setPage('day3')" id="btn-day3">Day 3</button>
+                <button class="nav-btn nav-btn-blue" onclick="app.setPage('day4')" id="btn-day4">Day 4</button>
+                <button class="nav-btn nav-btn-mango" onclick="app.setPage('heads')" id="btn-heads">Heads</button>
+                <a href="https://calendar.google.com" target="_blank" style="margin-left: 15px; color: #aaa;"><i data-lucide="calendar" size="28"></i></a>
+            </div>
+
+            <button class="mobile-btn" onclick="app.toggleMenu()">
+                <i data-lucide="menu" id="menu-icon" size="32"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu">
+            <!-- Populated via JS -->
+        </div>
+    </nav>
+
+    <main>
+        <div class="content-container" id="content-root">
+            <!-- Content injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <p style="letter-spacing: 3px; margin-bottom: 15px; color: #555; font-weight: bold;">INTERNAL PORTAL • CMI TESSELLATE 2026</p>
+        <div style="display: flex; justify-content: center; gap: 30px;">
+            <a href="https://tessellate.cmi.ac.in/stems/" style="color: #aaa; text-decoration: none;">STEMS</a>
+            <a href="https://www.cmi.ac.in/" style="color: #aaa; text-decoration: none;">CMI.AC.IN</a>
+        </div>
+    </footer>
+
+    <script>
+        // --- DATA ---
+        const DATA = {
+                    events: {},
+                    ongoing: [],
+                    heads: []
+                    };
+        async function loadData() {
+        const [eventsRes, ongoingRes, headsRes] = await Promise.all([
+            fetch('data/events.json'),
+            fetch('data/ongoing.json'),
+            fetch('data/heads.json')
+        ]);
+
+        DATA.events = await eventsRes.json();
+        DATA.ongoing = await ongoingRes.json();
+        DATA.heads = await headsRes.json();
+        }
+
+        // --- APP LOGIC ---
+        const app = {
+            currentPage: 'day1',
+            menuOpen: false,
+
+            init() {
+                this.render();
+                lucide.createIcons();
+            },
+
+            setPage(pageId) {
+                this.currentPage = pageId;
+                this.menuOpen = false;
+                this.render();
+                window.scrollTo(0,0);
+            },
+
+            toggleMenu() {
+                this.menuOpen = !this.menuOpen;
+                const menu = document.getElementById('mobile-menu');
+                const icon = document.getElementById('menu-icon');
+                
+                if (this.menuOpen) {
+                    menu.style.display = 'flex';
+                    icon.setAttribute('data-lucide', 'x');
+                    this.renderMobileMenu();
+                } else {
+                    menu.style.display = 'none';
+                    icon.setAttribute('data-lucide', 'menu');
+                }
+                lucide.createIcons();
+            },
+
+            render() {
+                const root = document.getElementById('content-root');
+                const menu = document.getElementById('mobile-menu');
+                menu.style.display = 'none'; // Close menu on render
+
+                // Update active states on desktop buttons
+                document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+                const activeBtn = document.getElementById(`btn-${this.currentPage}`);
+                if (activeBtn) activeBtn.classList.add('active');
+
+                let html = '';
+
+                if (this.currentPage === 'heads') {
+                    html += `<h2 style="color: var(--blue)">Committee</h2>`;
+                    DATA.heads.forEach(head => {
+                        html += `
+                        <div class="committee-card">
+                            <div>
+                                <div class="comm-role">${head.role}</div>
+                                <div class="comm-name">${head.name}</div>
+                            </div>
+                            <div class="comm-actions">
+                                <a href="tel:${head.phone}" style="color: var(--blue)"><i data-lucide="phone"></i></a>
+                                <a href="mailto:${head.email}" style="color: var(--pink)"><i data-lucide="mail"></i></a>
+                            </div>
+                        </div>`;
+                    });
+                } else if (this.currentPage === 'ongoing') {
+                    html += `<h2 style="color: var(--pink)">Ongoing</h2>`;
+                    DATA.ongoing.forEach(event => { html += this.createEventCard(event); });
+                } else {
+                    const day = this.currentPage;
+                    html += `<h2 style="color: var(--mango)">Day ${day.slice(-1)} Schedule</h2>`;
+                    DATA.events[day].forEach(event => { html += this.createEventCard(event); });
+                }
+
+                root.innerHTML = html;
+                lucide.createIcons();
+            },
+
+            createEventCard(event) {
+                const borderCol = event.type === 'CMI Only' ? 'var(--pink)' : 'var(--blue)';
+                return `
+                <div class="event-card" style="border-left: 6px solid ${borderCol}">
+                    <div class="card-header">
+                        <h3 class="card-title">${event.title}</h3>
+                        <span class="type-badge" style="background-color: ${borderCol}">${event.type}</span>
+                    </div>
+                    <div class="meta-info">
+                        <div class="meta-item"><i data-lucide="clock" size="16" style="color: var(--blue)"></i> ${event.time || 'Ongoing'}</div>
+                        ${event.location ? `<div class="meta-item"><i data-lucide="map-pin" size="16" style="color: var(--pink)"></i> ${event.location}</div>` : ''}
+                    </div>
+                    <p class="description">${event.description}</p>
+                    <div class="card-footer">
+                        <div class="contact-pill">
+                            <i data-lucide="phone" size="14" style="margin-right: 8px; opacity: 0.8"></i>
+                            ${event.contactPerson}
+                        </div>
+                        ${event.link ? `<a href="${event.link}" target="_blank" class="details-link">Details →</a>` : ''}
+                    </div>
+                </div>`;
+            },
+
+            renderMobileMenu() {
+                const menu = document.getElementById('mobile-menu');
+                menu.innerHTML = `
+                    <button onclick="app.setPage('ongoing')" style="padding: 18px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--pink); font-weight: bold; font-size: 1.2rem; font-family: var(--font-heading)">Ongoing Events</button>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px">
+                        <button onclick="app.setPage('day1')" style="padding: 15px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--blue); font-weight: bold; font-family: var(--font-heading)">Day 1</button>
+                        <button onclick="app.setPage('day2')" style="padding: 15px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--blue); font-weight: bold; font-family: var(--font-heading)">Day 2</button>
+                        <button onclick="app.setPage('day3')" style="padding: 15px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--blue); font-weight: bold; font-family: var(--font-heading)">Day 3</button>
+                        <button onclick="app.setPage('day4')" style="padding: 15px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--blue); font-weight: bold; font-family: var(--font-heading)">Day 4</button>
+                    </div>
+                    <button onclick="app.setPage('heads')" style="padding: 18px; background: #2a2a2a; border-radius: 8px; border: none; color: var(--mango); font-weight: bold; font-size: 1.2rem; font-family: var(--font-heading)">Core Contacts</button>
+                `;
+            }
+        };
+
+        async function loadData() {
+            const [eventsRes, ongoingRes, headsRes] = await Promise.all([
+                fetch('data/events.json'),
+                fetch('data/ongoing.json'),
+                fetch('data/heads.json')
+            ]);
+
+            DATA.events = await eventsRes.json();
+            DATA.ongoing = await ongoingRes.json();
+            DATA.heads = await headsRes.json();
+        }
+
+        window.onload = async () => {
+  await loadData();
+  app.init();
+};
+
+    </script>
+</body>
+</html>
