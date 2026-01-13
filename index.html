@@ -432,7 +432,8 @@
                     DATA.ongoing.forEach(event => { html += this.createEventCard(event); });
                 } else {
                     const day = this.currentPage;
-                    html += `<h2 style="color: var(--mango)">Day ${day.slice(-1)} Schedule</h2>`;
+                    html += `<h2 style="color: var(--mango)">Day 
+                        ${day.slice(-1)} (${Number(day.slice(-1)) + 22} January) Schedule</h2>`;
                     DATA.events[day].forEach(event => { html += this.createEventCard(event); });
                 }
 

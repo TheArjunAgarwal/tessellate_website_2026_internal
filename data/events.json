@@ -17,16 +17,8 @@
             "description": "We’ve got a football field, a strong rope, and people who think they are strong. You do the math."
         },
         {
-            "title": "Relay I",
-            "time": "14:00 - 15:00",
-            "type": "CMI Only",
-            "location": "Football Field",
-            "contactPerson": "Ishan Biswas",
-            "description": "Just another classic relay race"
-        },
-        {
             "title": "Chess Clock Jenga",
-            "time": "15:00 - 16:00",
+            "time": "14:00 - 15:00",
             "type": "CMI Only",
             "location": "Common Room",
             "contactPerson": "Harshitha Mucherla",
@@ -34,11 +26,19 @@
         },
         {
             "title": "Poetry Slam",
-            "time": "16:00 - 17:00",
+            "time": "15:00 - 16:00",
             "type": "CMI Only",
             "location": "NKN Hall",
             "contactPerson": "Animikha Dutta Dhar",
             "description": "Spill your heart out and read your verses!"
+        },
+                {
+            "title": "Relay I",
+            "time": "16:00 - 17:00",
+            "type": "CMI Only",
+            "location": "Football Field",
+            "contactPerson": "Ishan Biswas",
+            "description": "Just another classic relay race"
         },
         {
             "title": "Convention DnD",
@@ -181,20 +181,20 @@
             "description": "You've got a balloon on your back. All you have is a toothpick and your team's honour. THIS IS SPARTAAAAA"
         },
         {
-            "title": "Relay II",
-            "time": "13:45 - 14:45",
-            "type": "open",
-            "location": "Football Field",
-            "contactPerson": "Ishan Biswas",
-            "description": "Just the finals of a classic relay race"
-        },
-        {
             "title": "Integration Bee II",
-            "time": "15:00 - 17:00",
+            "time": "14:00 - 16:00",
             "type": "open",
             "location": "Semminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
             "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (amoung other awards)."
+        },
+        {
+            "title": "Relay II",
+            "time": "16:00 - 17:00",
+            "type": "open",
+            "location": "Football Field",
+            "contactPerson": "Ishan Biswas",
+            "description": "Just the finals of a classic relay race"
         },
         {
             "title": "Anti-Thesis",
