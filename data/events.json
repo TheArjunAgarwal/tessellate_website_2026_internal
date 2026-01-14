@@ -6,7 +6,7 @@
             "type" : "CMI Only",
             "location":"Audi Foyer",
             "contactPerson":"Arjun Maneesh Agarwal, Harshitha Mucherla, Vighnesh Sangle",
-            "description":"A rather unneccesary opening ceremony. Although, if you bear with it, you can get the scav list earlier than others."
+            "description":"A rather unnecessary opening ceremony. Although, if you bear with it, you can get the scav list earlier than others."
         },
         {
             "title": "Tug of War I",
@@ -14,7 +14,7 @@
             "type": "CMI Only",
             "location": "Football Field",
             "contactPerson": "Devesh Bajaj, Abhishek Lungariya",
-            "description": "We’ve got a football field, a strong rope, and people who think they are strong. You do the math."
+            "description": "We've got a football field, a strong rope, and people who think they are strong. You do the math."
         },
         {
             "title": "Chess Clock Jenga",
@@ -46,7 +46,7 @@
             "type": "CMI Only",
             "location": "DS Area",
             "contactPerson": "",
-            "description": "Ever wanted to try out DnD (or other TTRPGs)? This is your oppurtunity. There are DMs, adventures and pre-gens; all we need is your immagination.",
+            "description": "Ever wanted to try out DnD (or other TTRPGs)? This is your opportunity. There are DMs, adventures and pre-gens; all we need is your imagination.",
             "link": ""
         },
         {
@@ -64,7 +64,7 @@
             "title": "Presentation Night",
             "time": "00:30 - 4:00",
             "type": "CMI Only",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Sunaina Pati, Pranath Karanth",
             "description": "Educate or entertain us with armed only with a presentation. No MATH, CS or PHYSICS allowed."
         },
@@ -72,7 +72,7 @@
             "title": "5 Minute Presentations",
             "time": "10:00 - 14:00",
             "type": "open",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Sunaina Pati, Pranath Karanth",
             "description": "You have 5 minutes to teach a topic while being judged by 3 CMI Profs. There are a lot of prizes.",
             "link": ""
@@ -81,17 +81,17 @@
             "title": "Jane Street's Estimathon",
             "time": "14:00 - 15:00",
             "type": "open",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Rhyin Mandal, Om Chaudhri",
-            "description": "30 mins, 13 questions, 3 team mates. It is math brawl meets interview type problems"
+            "description": "30 mins, 13 questions, 3 team mates. It is math brawl meets interview type problems. Also, we have Jane Street T-Shirts."
         },
         {
             "title": "Neel's Movie Club Pirated Film Festival",
             "time": "15:00 - 18:00",
             "type": "open",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Neel Sinha",
-            "description": "The de-facto dictator of the movie club presents a bunch of short films (w|h)e really liked. The movies were obtained by completly legal means and piracy is just us being edgy.",
+            "description": "The disposed  dictator of the movie club presents a bunch of short films (w|h)e really liked. The movies were obtained by completely legal means and piracy is just us being edgy.",
             "link": ""
         },
         {
@@ -100,7 +100,7 @@
             "type": "open",
             "location": "Football Field",
             "contactPerson": "Anwess Kumar Das",
-            "description": "A completly friendly match between sister institutes. Not that it will stop us from whooping their *&%'s.",
+            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s.",
             "link": ""
         },
         {
@@ -109,14 +109,14 @@
             "type": "open",
             "location": "Auditorium",
             "contactPerson": "Shruti Sharma, Srishti Lakhotia",
-            "description": "CMI kids let loose and show their hidden talents. Singing, Instruments, Dance, Drama amoung other talents."
+            "description": "CMI kids let loose and show their hidden talents. Singing, Instruments, Dance, Drama among other talents."
         },
         {
             "title": "Quiz Night",
             "time": "21:00 - 23:00",
             "type": "open",
-            "location": "Semminar Hall",
-            "contactPerson": "Arjun Maneesh Agarwal",
+            "location": "Seminar Hall",
+            "contactPerson": "Arjun Maneesh Agarwal, Animikha Dutta Dhar",
             "description": "Test your knowledge about our world, media, sports and everything else in teams of 3 in a pub quiz."
         }
     ],
@@ -135,7 +135,7 @@
             "type": "CMI Only",
             "location": "CS Lab",
             "contactPerson": "Shashank Ingalagavi",
-            "description": "Time to show how well travelled, well read or plain good at stalking you are in competative GeoGuesser. (no rounds clash with Clash Royale)"
+            "description": "Time to show how well traveled, well read or plain good at stalking you are in competitive GeoGuesser. (no rounds clash with Clash Royale)"
         },
         {
             "title": "Murder Mystery Night",
@@ -151,13 +151,21 @@
             "type": "CMI Only",
             "location": "Football Field",
             "contactPerson": "Devesh Bajaj, Abhishek Lungariya",
-            "description": "We’ve got a football field, a strong rope, and people who are strong. Let's see who wins?"
+            "description": "We've got a football field, a strong rope, and people who are strong. Let's see who wins?"
+        },
+        {
+            "title": "Monologue Competition",
+            "time": "14:00 - 15:00",
+            "type": "CMI Only",
+            "location": "Seminar Hall",
+            "contactPerson": "Neel Sinha, Chiraayu Sneha Nanda",
+            "description": "A prompt appears on the screen and you must keep speaking till we cut you off. Dramatic. Funny. SILLY."
         },
         {
             "title": "Integration Bee I",
             "time": "15:00 - 17:00",
             "type": "open",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
             "description": "Are you ready to put your calculus skills to the test? Join us for a buzzing good time filled with integrals, fun, and prizes",
             "link": ""
@@ -167,7 +175,7 @@
             "time": "19:00 - 24:00",
             "type": "CMI Only",
             "location": "Audi Foyer",
-            "contactPerson": "",
+            "contactPerson": "Harshitha Mucherla",
             "description": "One of CMI's only traditions. Get ready to dance, rave and overall not feel the legs next morning."
         }
     ],
@@ -184,9 +192,9 @@
             "title": "Integration Bee II",
             "time": "14:00 - 16:00",
             "type": "open",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
-            "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (amoung other awards)."
+            "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (among other awards)."
         },
         {
             "title": "Relay II",
@@ -200,7 +208,7 @@
             "title": "Anti-Thesis",
             "time": "17:00 - 19:30",
             "type": "open",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Anya Basu, Aditya Vashihsth",
             "description": "You will be given a random dissertation of a topic you know nothing about. Now go defend it!"
         },
@@ -208,7 +216,7 @@
             "title": "Judgement Day",
             "time": "22:30 - 23:30",
             "type": "CMI Only",
-            "location": "Semminar Hall",
+            "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Vighnesh Sangle",
             "description": "The judges look at what the hunters have found, tally the scores and crown the champion."
         },
