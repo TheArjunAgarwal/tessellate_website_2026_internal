@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Minute Presentations | CMI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --mango: #FFAA00;
+            --pink: #FF007F;
+            --blue: #00A4B4;
+            --black: #1e1e1e;
+            --white: #ffffff;
+            --gray: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Lexend', sans-serif;
+            margin: 0;
+            color: var(--black);
+            line-height: 1.6;
+            font-size: 1.1rem; /* Larger base font */
+        }
+
+        header {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 5rem 2rem;
+            text-align: center;
+            border-bottom: 8px solid var(--blue);
+        }
+
+        .container { max-width: 1100px; margin: auto; padding: 2rem; }
+
+        .badge {
+            background: var(--pink);
+            color: white;
+            padding: 0.6rem 1.4rem;
+            border-radius: 50px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        h1 { 
+            font-size: 4rem; /* Significantly larger */
+            font-weight: 800;
+            margin: 0; 
+            color: var(--mango); 
+            line-height: 1.1;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .event-meta {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 2rem;
+            font-weight: 500;
+            color: var(--blue);
+            font-size: 1.3rem;
+        }
+
+        .announcement-card {
+            background: var(--blue);
+            color: white;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 3rem 0;
+            box-shadow: 0 10px 30px rgba(0, 164, 180, 0.2);
+        }
+
+        .announcement-card h2 { margin-top: 0; color: white; }
+
+        .filter-nav {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        button {
+            font-family: 'Lexend', sans-serif;
+            font-weight: 600;
+            background: transparent;
+            border: 3px solid var(--blue);
+            padding: 0.8rem 1.8rem;
+            cursor: pointer;
+            margin: 8px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        button:hover, button.active {
+            background: var(--blue);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border: 2px solid #eee;
+            padding: 2rem;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover { 
+            border-color: var(--mango);
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .judge-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            filter: grayscale(20%);
+        }
+
+        .hidden { display: none; }
+
+        footer {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: var(--gray);
+            margin-top: 5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .chairs-container {
+            display: flex;
+            gap: 20px;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--black);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .event-meta { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="badge">SUBMISSIONS OPEN</div>
+    <h1>5 Minute <br>Presentations</h1>
+    <div class="event-meta">
+        <span>📍 CMI Seminar Hall</span>
+        <span>⏰ 10:00 - 14:00</span>
+    </div>
+    <p style="max-width: 700px; margin: 2rem auto; font-size: 1.4rem; opacity: 0.9;">
+        You have 5 minutes to teach a topic while being judged by 3 CMI Profs. There are a lot of prizes!
+    </p>
+</header>
+
+<div class="container">
+    
+    <section id="announcement" class="announcement-card">
+        <h2>Submissions are Live!</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem;">The proceedings list is currently hidden. Send your topics to our coordinators to secure your slot.</p>
+        <button style="border-color: white; color: white;" onclick="window.location.href='https://tally.so/r/RGoZGP'">Register Now</button>
+    </section>
+
+    <section id="proceedings-section" class="hidden">
+        <h2 style="color: var(--black); text-align: center;">Proceedings</h2>
+        <div class="filter-nav">
+            <button class="active" onclick="filterData('all')">All Topics</button>
+            <button onclick="filterData('math')">Mathematics</button>
+            <button onclick="filterData('cs')">CompSci</button>
+            <button onclick="filterData('physics')">Physics</button>
+            <button onclick="filterData('misc')">Misc</button>
+        </div>
+        <div id="proceedings-list" class="grid"></div>
+    </section>
+
+    <hr style="margin: 5rem 0; opacity: 0.1;">
+
+    <section>
+        <h2 style="color: var(--pink); margin-top: 4rem;">Judges</h2>
+        <p style="margin-bottom: 2rem; font-style: italic; opacity: 0.7;">Photographs and final panel to be updated soon.</p>
+        <div id="judges-list" class="grid"></div>
+
+                <h2 style="color: var(--pink)">Chairs</h2>
+        <div id="chairs-list" class="chairs-container"></div>
+    </section>
+</div>
+
+<footer>
+    <p><strong>Contact:</strong> Sunaina Pati, Pranath Karanth</p>
+    <p style="opacity: 0.6; font-size: 0.9rem;">&copy; 2026 Chennai Mathematical Institute</p>
+</footer>
+
+<script>
+    let allProceedings = [];
+
+    async function loadData() {
+        try {
+            const response = await fetch('data.json');
+            const data = await response.json();
+            
+            // Load Chairs
+            const chairsDiv = document.getElementById('chairs-list');
+            data.chairs.forEach(c => {
+                chairsDiv.innerHTML += `<div><strong><a href = "mailto:${c.mail}">${c.name}</a></strong> <span style="color: var(--blue); font-size: 1rem;">— ${c.role}</span></div>`;
+            });
+
+            // Load Judges
+            const judgesDiv = document.getElementById('judges-list');
+            data.judges.forEach(j => {
+                judgesDiv.innerHTML += `
+                    <div class="card">
+                        <img src="${j.image}" class="judge-img" alt="${j.name}">
+                        <h3 style="margin: 0;">${j.name}</h3>
+                        <p style="color: var(--blue); font-weight: 600; margin-top: 0.5rem;">${j.specialization}</p>
+                    </div>
+                `;
+            });
+
+            allProceedings = data.proceedings;
+            renderProceedings(allProceedings);
+
+            // To flip to "Live" mode, uncomment these lines:
+            // document.getElementById('proceedings-section').classList.remove('hidden');
+            // document.getElementById('announcement').classList.add('hidden');
+
+        } catch (e) {
+            console.error("JSON Load Error: Use a local server to view this page.", e);
+        }
+    }
+
+    function renderProceedings(list) {
+        const container = document.getElementById('proceedings-list');
+        container.innerHTML = '';
+        list.forEach(p => {
+            container.innerHTML += `
+                <div class="card">
+                    <span style="color: var(--pink); font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px;">${p.subject}</span>
+                    <h3 style="margin: 0.5rem 0; font-size: 1.5rem;">${p.title}</h3>
+                    <p style="margin-bottom: 0;">Presenter: <strong>${p.presenter}</strong></p>
+                </div>
+            `;
+        });
+    }
+
+    function filterData(subject) {
+        const btns = document.querySelectorAll('.filter-nav button');
+        btns.forEach(b => b.classList.remove('active'));
+        event.target.classList.add('active');
+
+        if (subject === 'all') {
+            renderProceedings(allProceedings);
+        } else {
+            const filtered = allProceedings.filter(p => p.subject === subject);
+            renderProceedings(filtered);
+        }
+    }
+
+    loadData();
+</script>
+
+</body>
+</html>

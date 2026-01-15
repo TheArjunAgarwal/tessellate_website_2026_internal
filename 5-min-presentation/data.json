@@ -1,0 +1,34 @@
+{
+  "chairs": [
+    { "name": "Sunaina Pati", "role": "Lead Coordinator", "mail":"sunaina.ug2023@cmi.ac.in"},
+    { "name": "Pranath Karanth", "role": "Lead Coordinator", "mail":"pranathk.ug2024@cmi.ac.in" }
+  ],
+  "judges": [
+    {
+      "name": "To Be Decided",
+      "image": "https://via.placeholder.com/150",
+      "specialization": "Mathematics"
+    },
+    {
+      "name": "To Be Decided",
+      "image": "https://via.placeholder.com/150",
+      "specialization": "Computer Science"
+    },
+    {
+      "name": "To Be Decided",
+      "image": "https://via.placeholder.com/150",
+      "specialization": "Computer Science"
+    },
+    {
+      "name": "To Be Decided",
+      "image": "https://via.placeholder.com/150",
+      "specialization": "Physics"
+    }
+  ],
+  "proceedings": [
+    { "title": "Riemann Hypothesis Intro", "presenter": "Alice", "subject": "math" },
+    { "title": "Quantum Gates", "presenter": "Bob", "subject": "physics" },
+    { "title": "P vs NP", "presenter": "Charlie", "subject": "cs" },
+    { "title": "History of CMI", "presenter": "Dave", "subject": "misc" }
+  ]
+}
