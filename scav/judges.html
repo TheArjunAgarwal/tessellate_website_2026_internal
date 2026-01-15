@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Judges | CMI Scav</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific layout for Judge Profiles */
+        .judge-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        @media (max-width: 600px) {
+            .judge-grid { grid-template-columns: 1fr; }
+        }
+        .judge-card {
+            border: 2px solid var(--text-color);
+            padding: 15px;
+            background: white;
+        }
+        .judge-photo {
+            width: 100%;
+            height: 250px;
+            background-color: #ddd; /* Placeholder color */
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        .judge-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .judge-name {
+            font-family: var(--font-header);
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Judges</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="judges.html">Judges</a>
+    <a href="list.html">The List</a>
+    <a href="rules.html">Rules</a>
+    <a href="faq.html">FAQ</a>
+</nav>
+
+<div class="container">
+
+    <div class="announcement" style="margin-top: 50px;">
+        <p><strong>Note:</strong> Bribing the judges is strongly encouraged. Make sure the bribes are creative and in accordance to their motivations and interests. Wait, bribing with money or gifts? That is strictly prohibited and will lead to immediate DQ.</p>
+    </div>
+
+    <div class="judge-grid">
+        <div class="judge-card">
+            <div class="judge-photo">
+                <img src="j1.png" alt="Judge J1 Photo" onerror="this.style.display='none'; this.parentNode.innerHTML='[Photo of J1]'">
+            </div>
+            <div class="judge-name">Arjun Maneesh Agarwal</div>
+            <p><i>Pronouns:</i>He/Him</p>
+            <p><strong>Bio:</strong> The current (self appointed) head of puzzles at CMI. Spends way too much time making puzzles and quizzes and now has made a new event to overdose on puzzles. Has lost access to wifi privileges due to hacking <s>allegations</s>.</p>
+        </div>
+
+        <div class="judge-card">
+            <div class="judge-photo">
+                <img src="j2.png" alt="Judge J2 Photo" onerror="this.style.display='none'; this.parentNode.innerHTML='[Photo of J2]'">
+            </div>
+            <div class="judge-name">Vighnesh Sangle</div>
+            <p><i>Pronouns:</i>He/Him</p>
+            <p><strong>Bio:</strong> Former Tessellate solo organizer. Can be found in a room of look-alikes by shouting 'can anyone help with Ring Theory without any compensation?' Has a sick deadpool sticker <s>which I wanna steal</s> (apologies, our webdev is being a pain).</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 CMI Scav Comm.</p>
+</footer>
+
+</body>
+</html>

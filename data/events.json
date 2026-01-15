@@ -69,40 +69,20 @@
             "description": "Educate or entertain us with armed only with a presentation. No MATH, CS or PHYSICS allowed."
         },
         {
-            "title": "5 Minute Presentations",
-            "time": "10:00 - 14:00",
-            "type": "open",
-            "location": "Seminar Hall",
-            "contactPerson": "Sunaina Pati, Pranath Karanth",
-            "description": "You have 5 minutes to teach a topic while being judged by 3 CMI Profs. There are a lot of prizes.",
-            "link": "../5-min-presentation"
+            "title": "Balloon Battle Royale",
+            "time": "9:30 - 12:30",
+            "type": "CMI Only",
+            "location": "Football Field",
+            "contactPerson": "",
+            "description": "You've got a balloon on your back. All you have is a toothpick and your team's honour. THIS IS SPARTAAAAA"
         },
         {
-            "title": "Jane Street's Estimathon",
-            "time": "14:00 - 15:00",
-            "type": "open",
-            "location": "Seminar Hall",
-            "contactPerson": "Rhyin Mandal, Om Chaudhri",
-            "description": "30 mins, 13 questions, 3 team mates. It is math brawl meets interview type problems. Also, we have Jane Street T-Shirts.",
-            "link": "../estimathon"
-        },
-        {
-            "title": "Neel's Movie Club Pirated Film Festival",
-            "time": "15:00 - 18:00",
-            "type": "open",
-            "location": "Seminar Hall",
-            "contactPerson": "Neel Sinha",
-            "description": "The disposed  dictator of the movie club presents a bunch of short films (w|h)e really liked. The movies were obtained by completely legal means and piracy is just us being edgy.",
-            "link": ""
-        },
-        {
-            "title": "CMI vs IMSc Football",
-            "time": "15:30 - 17:30",
+            "title": "Relay II",
+            "time": "16:00 - 17:00",
             "type": "open",
             "location": "Football Field",
-            "contactPerson": "Anwess Kumar Das",
-            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s.",
-            "link": ""
+            "contactPerson": "Ishan Biswas",
+            "description": "Just the finals of a classic relay race"
         },
         {
             "title": "Cultural Night",
@@ -113,12 +93,12 @@
             "description": "CMI kids let loose and show their hidden talents. Singing, Instruments, Dance, Drama among other talents."
         },
         {
-            "title": "Quiz Night",
-            "time": "21:00 - 23:00",
+            "title": "Anti-Thesis",
+            "time": "21:30 - 00:00",
             "type": "open",
             "location": "Seminar Hall",
-            "contactPerson": "Arjun Maneesh Agarwal, Animikha Dutta Dhar",
-            "description": "Test your knowledge about our world, media, sports and everything else in teams of 3 in a pub quiz."
+            "contactPerson": "Anya Basu, Aditya Vashihsth",
+            "description": "You will be given a random dissertation of a topic you know nothing about. Now go defend it!"
         }
     ],
     "day3": [
@@ -174,37 +154,57 @@
     ],
     "day4": [
         {
-            "title": "Balloon Battle Royale",
-            "time": "9:30 - 12:30",
-            "type": "CMI Only",
-            "location": "Football Field",
-            "contactPerson": "",
-            "description": "You've got a balloon on your back. All you have is a toothpick and your team's honour. THIS IS SPARTAAAAA"
+            "title": "5 Minute Presentations",
+            "time": "10:00 - 14:00",
+            "type": "open",
+            "location": "Seminar Hall",
+            "contactPerson": "Sunaina Pati, Pranath Karanth",
+            "description": "You have 5 minutes to teach a topic while being judged by 3 CMI Profs. There are a lot of prizes.",
+            "link": "../5-min-presentation"
+        },
+        {
+            "title": "Jane Street's Estimathon",
+            "time": "14:00 - 15:00",
+            "type": "open",
+            "location": "Seminar Hall",
+            "contactPerson": "Rhyin Mandal, Om Chaudhri",
+            "description": "30 mins, 13 questions, 3 team mates. It is math brawl meets interview type problems. Also, we have Jane Street T-Shirts.",
+            "link": "../estimathon"
         },
         {
             "title": "Integration Bee II",
-            "time": "14:00 - 16:00",
+            "time": "15:00 - 17:00",
             "type": "open",
             "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
             "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (among other awards)."
         },
         {
-            "title": "Relay II",
-            "time": "16:00 - 17:00",
-            "type": "open",
-            "location": "Football Field",
-            "contactPerson": "Ishan Biswas",
-            "description": "Just the finals of a classic relay race"
-        },
-        {
-            "title": "Anti-Thesis",
-            "time": "17:00 - 19:30",
+            "title": "Neel's Movie Club Pirated Film Festival",
+            "time": "17:00 - 20:00",
             "type": "open",
             "location": "Seminar Hall",
-            "contactPerson": "Anya Basu, Aditya Vashihsth",
-            "description": "You will be given a random dissertation of a topic you know nothing about. Now go defend it!"
+            "contactPerson": "Neel Sinha",
+            "description": "The disposed  dictator of the movie club presents a bunch of short films (w|h)e really liked. The movies were obtained by completely legal means and piracy is just us being edgy.",
+            "link": ""
         },
+        {
+            "title": "CMI vs IMSc Football",
+            "time": "17:30 - 19:30",
+            "type": "open",
+            "location": "Football Field",
+            "contactPerson": "Anwess Kumar Das",
+            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s.",
+            "link": ""
+        },
+        {
+            "title": "Quiz Night",
+            "time": "20:30 - 22:30",
+            "type": "open",
+            "location": "Seminar Hall",
+            "contactPerson": "Arjun Maneesh Agarwal, Animikha Dutta Dhar",
+            "description": "Test your knowledge about our world, media, sports and everything else in teams of 3 in a pub quiz."
+        }
         {
             "title": "Judgement Day",
             "time": "22:30 - 23:30",
