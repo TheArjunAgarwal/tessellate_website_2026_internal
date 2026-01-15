@@ -159,12 +159,21 @@
             h1 { font-size: 2.5rem; }
             .event-meta { font-size: 1.1rem; }
         }
+        .title-sponsor-logo {
+    max-width: 220px;
+    margin-bottom: 2rem;
+}
     </style>
 </head>
 <body>
 
 <header>
     <div class="badge">SUBMISSIONS OPEN</div>
+    <p></p>
+       <img 
+        src="../spon-logo.png" 
+        alt="Title Sponsor"
+        class="title-sponsor-logo">
     <h1>5 Minute <br>Presentations</h1>
     <div class="event-meta">
         <span>📍 CMI Seminar Hall</span>
@@ -217,7 +226,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('./data.json');
+            const response = await fetch('../5-min-presentation/data.json');
             const data = await response.json();
             
             // Load Chairs
