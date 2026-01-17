@@ -17,12 +17,28 @@
             "description": "We've got a football field, a strong rope, and people who think they are strong. You do the math."
         },
         {
+            "title": "FIFA Tournament",
+            "time": "10:00 - 13:00",
+            "type": "CMI Only",
+            "location": "LH01",
+            "contactPerson": "Naman Maheshwari, Tejas Sah, Kabir Singh, Neelabh Shome",
+            "description": "1 v 1 FIFA in complete E-Sports fashion. Also, there is silly commentary by {secret person}. No playoffs will clash with Tug of War"
+        },
+        {
             "title": "Chess Clock Jenga",
             "time": "14:00 - 15:00",
             "type": "CMI Only",
             "location": "Common Room",
             "contactPerson": "Harshitha Mucherla",
             "description": "The game of dexterity (and hoping that it doesn't fall) along with a chess clock to put pressure."
+        },
+        {
+            "title": "Badminton Tournament",
+            "time": "9:00 - 11:00",
+            "type": "CMI Only",
+            "location": "Vollyball Court",
+            "contactPerson": "",
+            "description": "Grab a partner and smash/slice your way to the top."
         },
         {
             "title": "Poetry Slam",
@@ -97,7 +113,7 @@
             "time": "21:30 - 00:00",
             "type": "open",
             "location": "Seminar Hall",
-            "contactPerson": "Anya Basu, Aditya Vashihsth",
+            "contactPerson": "Anya Basu, Adie",
             "description": "You will be given a random dissertation of a topic you know nothing about. Now go defend it!"
         }
     ],
