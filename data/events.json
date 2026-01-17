@@ -141,7 +141,7 @@
             "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
             "description": "Are you ready to put your calculus skills to the test? Join us for a buzzing good time filled with integrals, fun, and prizes",
-            "link": ""
+            "link": "../integration-bee"
         },
         {
             "title": "DJ Night",
@@ -177,7 +177,8 @@
             "type": "open",
             "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
-            "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (among other awards)."
+            "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (among other awards).",
+            "link":"../integration-bee"
         },
         {
             "title": "Neel's Movie Club Pirated Film Festival",
