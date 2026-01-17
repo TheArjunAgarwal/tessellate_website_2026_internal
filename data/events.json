@@ -33,12 +33,12 @@
             "description": "The game of dexterity (and hoping that it doesn't fall) along with a chess clock to put pressure."
         },
         {
-            "title": "Badminton Tournament",
-            "time": "9:00 - 11:00",
+            "title": "Badminton",
+            "time": "15:00 - 17:00",
             "type": "CMI Only",
             "location": "Vollyball Court",
             "contactPerson": "",
-            "description": "Grab a partner and smash/slice your way to the top."
+            "description": "Grab a Partner and smash/slice your way to the top."
         },
         {
             "title": "Poetry Slam",
@@ -48,7 +48,7 @@
             "contactPerson": "Animikha Dutta Dhar",
             "description": "Spill your heart out and read your verses!"
         },
-                {
+        {
             "title": "Relay I",
             "time": "16:00 - 17:00",
             "type": "CMI Only",
@@ -58,7 +58,7 @@
         },
         {
             "title": "Convention DnD",
-            "time": "17:30 - 20:30",
+            "time": "17:00 - 20:00",
             "type": "CMI Only",
             "location": "DS Area",
             "contactPerson": "",
@@ -66,14 +66,14 @@
             "link": ""
         },
         {
-            "title": "Poker Night",
-            "time": "21:00 - 24:00",
-            "type": "CMI Only",
-            "location": "NKN Hall",
-            "contactPerson": "Qusai Nampurwala",
-            "description": "Don't play the odds, play the man!",
-            "link": ""
+            "title": "Anti-Thesis",
+            "time": "20:00 - 22:30",
+            "type": "open",
+            "location": "Seminar Hall",
+            "contactPerson": "Anya Basu, Aditya Vashihsth",
+            "description": "You will be given a random dissertation of a topic you know nothing about. Now go defend it!"
         }
+
     ],
     "day2": [
         {
@@ -109,31 +109,16 @@
             "description": "CMI kids let loose and show their hidden talents. Singing, Instruments, Dance, Drama among other talents."
         },
         {
-            "title": "Anti-Thesis",
-            "time": "21:30 - 00:00",
-            "type": "open",
-            "location": "Seminar Hall",
-            "contactPerson": "Anya Basu, Adie",
-            "description": "You will be given a random dissertation of a topic you know nothing about. Now go defend it!"
+            "title": "Poker Night",
+            "time": "21:00 - 24:00",
+            "type": "CMI Only",
+            "location": "NKN Hall",
+            "contactPerson": "Qusai Nampurwala",
+            "description": "Don't play the odds, play the man!",
+            "link": ""
         }
     ],
     "day3": [
-        {
-            "title": "Clash Royale",
-            "time": "00:00 - 1:15",
-            "type": "CMI Only",
-            "location": "CS Lab",
-            "contactPerson": "Harshitha Mucherla",
-            "description": "Build your decks and fireball (or skelly swarm or zap or knight) your opponents! (no rounds clash with GeoGuesser)"
-        },
-        {
-            "title": "GeoGuesser",
-            "time": "00:00 - 1:15",
-            "type": "CMI Only",
-            "location": "CS Lab",
-            "contactPerson": "Shashank Ingalagavi",
-            "description": "Time to show how well traveled, well read or plain good at stalking you are in competitive GeoGuesser. (no rounds clash with Clash Royale)"
-        },
         {
             "title": "Murder Mystery Night",
             "time": "1:30 - 4:00",
@@ -169,6 +154,22 @@
         }
     ],
     "day4": [
+                {
+            "title": "Clash Royale",
+            "time": "00:00 - 1:15",
+            "type": "CMI Only",
+            "location": "CS Lab",
+            "contactPerson": "Harshitha Mucherla",
+            "description": "Build your decks and fireball (or skelly swarm or zap or knight) your opponents! (no rounds clash with GeoGuesser)"
+        },
+        {
+            "title": "GeoGuesser",
+            "time": "00:00 - 1:15",
+            "type": "CMI Only",
+            "location": "CS Lab",
+            "contactPerson": "Shashank Ingalagavi",
+            "description": "Time to show how well traveled, well read or plain good at stalking you are in competitive GeoGuesser. (no rounds clash with Clash Royale)"
+        },
         {
             "title": "5 Minute Presentations",
             "time": "10:00 - 14:00",
