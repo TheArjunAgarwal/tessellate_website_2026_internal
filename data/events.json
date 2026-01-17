@@ -17,12 +17,12 @@
             "description": "We've got a football field, a strong rope, and people who think they are strong. You do the math."
         },
         {
-            "title": "FIFA Tournament",
+            "title": "FIFA",
             "time": "10:00 - 13:00",
             "type": "CMI Only",
             "location": "LH01",
-            "contactPerson": "Naman Maheshwari, Tejas Sah, Kabir Singh, Neelabh Shome",
-            "description": "1 v 1 FIFA in complete E-Sports fashion. Also, there is silly commentary by {secret person}. No playoffs will clash with Tug of War"
+            "contactPerson": "Kabir Singh, Naman Maheshwari, Tejas Sah, Neelabh Shome",
+            "description": "Full Esports style FIFA tournament with projectors and controllers. We may also have clueless commentators."
         },
         {
             "title": "Chess Clock Jenga",
@@ -135,6 +135,14 @@
             "contactPerson": "Devesh Bajaj, Abhishek Lungariya",
             "description": "We've got a football field, a strong rope, and people who are strong. Let's see who wins?"
         },
+                {
+            "title": "Tetris",
+            "time": "10:00 - 13:00",
+            "type": "CMI Only",
+            "location": "Computer Lab",
+            "contactPerson": "Karan Gupta",
+            "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)"
+        },
         {
             "title": "Integration Bee I",
             "time": "15:00 - 17:00",
@@ -158,7 +166,7 @@
             "title": "Clash Royale",
             "time": "00:00 - 1:15",
             "type": "CMI Only",
-            "location": "CS Lab",
+            "location": "Computer Lab",
             "contactPerson": "Harshitha Mucherla",
             "description": "Build your decks and fireball (or skelly swarm or zap or knight) your opponents! (no rounds clash with GeoGuesser)"
         },
@@ -166,7 +174,7 @@
             "title": "GeoGuesser",
             "time": "00:00 - 1:15",
             "type": "CMI Only",
-            "location": "CS Lab",
+            "location": "Computer Lab",
             "contactPerson": "Shashank Ingalagavi",
             "description": "Time to show how well traveled, well read or plain good at stalking you are in competitive GeoGuesser. (no rounds clash with Clash Royale)"
         },
