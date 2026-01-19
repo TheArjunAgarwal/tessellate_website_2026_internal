@@ -14,7 +14,8 @@
             "type": "CMI Only",
             "location": "Football Field",
             "contactPerson": "Devesh Bajaj, Abhishek Lungariya",
-            "description": "We've got a football field, a strong rope, and people who think they are strong. You do the math."
+            "description": "We've got a football field, a strong rope, and people who think they are strong. You do the math.",
+            "link":"https://forms.gle/iYY6VppK585zhqy98"
         },
         {
             "title": "Chess Clock Jenga",
@@ -30,9 +31,10 @@
             "type": "CMI Only",
             "location": "Football Field",
             "contactPerson": "Ishan Biswas",
-            "description": "Just another classic relay race"
+            "description": "Just another classic relay race",
+            "link":"https://docs.google.com/forms/d/e/1FAIpQLSegBaUqzTtCK235i1olIW_YmRaGEJmNE5A5SF-_G0kSfCdxjA/viewform?usp=sharing&ouid=115730640007094814055"
         },
-                {
+        {
             "title": "Anti-Thesis",
             "time": "17:00 - 19:30",
             "type": "CMI Only",
@@ -100,7 +102,8 @@
             "type": "open",
             "location": "Football Field",
             "contactPerson": "Ishan Biswas",
-            "description": "Just the finals of a classic relay race"
+            "description": "Just the finals of a classic relay race",
+            "link":"https://docs.google.com/forms/d/e/1FAIpQLSegBaUqzTtCK235i1olIW_YmRaGEJmNE5A5SF-_G0kSfCdxjA/viewform?usp=sharing&ouid=115730640007094814055"
         },
         {
             "title": "Cultural Night",
@@ -115,7 +118,7 @@
             "time": "21:00 - 24:00",
             "type": "CMI Only",
             "location": "NKN Hall",
-            "contactPerson": "Qusai Nampurwala",
+            "contactPerson": "Qusai Nampurwala, Sania Rawat",
             "description": "Don't play the odds, play the man!",
             "link": ""
         }
@@ -135,7 +138,8 @@
             "type": "CMI Only",
             "location": "Computer Lab",
             "contactPerson": "Shashank Ingalagavi",
-            "description": "Time to show how well traveled, well read or plain good at stalking you are in competitive GeoGuesser. (no rounds clash with Clash Royale)"
+            "description": "Time to show how well traveled, well read or plain good at stalking you are in competitive GeoGuesser. (no rounds clash with Clash Royale)",
+            "link":"https://docs.google.com/forms/d/e/1FAIpQLScxIH0g90UWQCPoOZAf9YyzhO3BD5RYGsWG7zV1iCWEdLx5Ow/viewform?usp=header"
         },
         {
             "title": "Murder Mystery Night",
@@ -146,14 +150,6 @@
             "description": "Everyone gets a character and then someone dies. One of you put the body there and none of you can leave till we know who."
         },
         {
-            "title": "Tug of War II",
-            "time": "9:00 - 14:00",
-            "type": "CMI Only",
-            "location": "Football Field",
-            "contactPerson": "Devesh Bajaj, Abhishek Lungariya",
-            "description": "We've got a football field, a strong rope, and people who are strong. Let's see who wins?"
-        },
-                {
             "title": "Tetris",
             "time": "10:00 - 13:00",
             "type": "CMI Only",
