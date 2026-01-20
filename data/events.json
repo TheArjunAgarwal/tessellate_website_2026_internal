@@ -98,6 +98,14 @@
             "link":"https://forms.gle/F7XxSUFF6Cunapfv7"
         },
         {
+            "title": "Mock Court",
+            "time" : "14:00 - 16:00",
+            "type" : "CMI Only",
+            "location": "NKN Hall",
+            "contactPerson":"Arjun Maneesh Agarwal",
+            "description":"The Court is in Session. You will be given the case and testimonies and must make the argument (and objections). Part debate, part courtroom shenanigans and complete chaos."
+        },
+        {
             "title": "Relay II",
             "time": "16:00 - 17:00",
             "type": "open",
@@ -159,6 +167,14 @@
             "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)"
         },
         {
+            "title": "Monologue Competition",
+            "time": "14:00 - 15:30",
+            "type": "CMI Only",
+            "location": "Seminar Hall",
+            "contactPerson": "Neel Sinha",
+            "description": "A prompt appears on the screen and you must keep speaking till we cut you off. Dramatic. Funny. SILLY."
+        },
+        {
             "title": "DJ Night",
             "time": "19:00 - 24:00",
             "type": "CMI Only",
@@ -168,6 +184,14 @@
         }
     ],
     "day4": [
+        {
+            "title": "Chirayu's Board Game Night",
+            "time": "1:00 - 4:00",
+            "type": "CMI Only",
+            "location": "DS Area",
+            "contactPerson": "Chirayu Nanda",
+            "description": "A curated collection of board games by Chirayu."
+        },
         {
             "title": "5 Minute Presentations",
             "time": "9:30 - 13:30",
