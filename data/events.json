@@ -159,15 +159,6 @@
             "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)"
         },
         {
-            "title": "Integration Bee I",
-            "time": "15:00 - 17:00",
-            "type": "open",
-            "location": "Seminar Hall",
-            "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
-            "description": "Are you ready to put your calculus skills to the test? Join us for a buzzing good time filled with integrals, fun, and prizes",
-            "link": "../integration-bee"
-        },
-        {
             "title": "DJ Night",
             "time": "19:00 - 24:00",
             "type": "CMI Only",
@@ -186,13 +177,13 @@
             "description": "You have 5 minutes to teach a topic and there are a lot of prizes for your effort.",
             "link": "../5-min-presentation"
         },
-                {
-            "title": "Integration Bee II",
+        {
+            "title": "Integration Bee",
             "time": "13:30 - 17:30",
             "type": "open",
             "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
-            "description": "Master Integrators duke it out for the Grand Integrator Santa Cap (among other awards).",
+            "description": "Are you ready to put your calculus skills to the test? Join us for a buzzing good time filled with integrals, fun, and prizes",
             "link":"../integration-bee"
         },
         {
