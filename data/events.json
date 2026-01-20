@@ -175,6 +175,15 @@
             "description": "A prompt appears on the screen and you must keep speaking till we cut you off. Dramatic. Funny. SILLY."
         },
         {
+            "title": "Hand and Brain Chess",
+            "time": "15:00 - 17:00",
+            "type": "CMI Only",
+            "location": "LH01",
+            "contactPerson": "Aadrita Paul, Thejas",
+            "description": "Hand-and-brain is a chess variant where each color is played by two people. One of them (the \"brain\") announces one of the six pieces—king, queen, rook, bishop, knight, or pawn—and the other player (the \"hand\") moves any of the named piece on the board that has a legal move. The catch: the \"brain\" cannot tell the specific move they want to play or give any hint to help the \"hand\" to figure it out.",
+            "link":"https://forms.gle/xjVPpvbrLwbpfG6p7"
+        },
+        {
             "title": "DJ Night",
             "time": "19:00 - 24:00",
             "type": "CMI Only",
