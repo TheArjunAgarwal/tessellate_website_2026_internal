@@ -186,18 +186,9 @@
             "description": "You have 5 minutes to teach a topic and there are a lot of prizes for your effort.",
             "link": "../5-min-presentation"
         },
-        {
-            "title": "Jane Street's Estimathon",
-            "time": "13:30 - 14:30",
-            "type": "open",
-            "location": "Seminar Hall",
-            "contactPerson": "Rhyin Mandal, Om Chaudhri",
-            "description": "30 mins, 13 questions, 3 team mates. It is math brawl meets interview type problems. Also, we have Jane Street T-Shirts.",
-            "link": "../estimathon"
-        },
-        {
+                {
             "title": "Integration Bee II",
-            "time": "14:30 - 17:30",
+            "time": "13:30 - 17:30",
             "type": "open",
             "location": "Seminar Hall",
             "contactPerson": "Arjun Maneesh Agarwal, Piyush Kumar Jha",
@@ -221,6 +212,15 @@
             "contactPerson": "Anwess Kumar Das",
             "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s.",
             "link": ""
+        },
+                {
+            "title": "Jane Street's Estimathon",
+            "time": "19:30 - 20:30",
+            "type": "open",
+            "location": "Seminar Hall",
+            "contactPerson": "Rhyin Mandal, Om Chaudhri",
+            "description": "30 mins, 13 questions, 3 team mates. It is math brawl meets interview type problems. Also, we have Jane Street T-Shirts.",
+            "link": "../estimathon"
         },
         {
             "title": "Quiz Night",
