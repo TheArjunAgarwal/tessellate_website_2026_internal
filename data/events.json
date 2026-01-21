@@ -160,11 +160,19 @@
         },
         {
             "title": "Tetris",
-            "time": "10:00 - 13:00",
+            "time": "10:00 - 12:00",
             "type": "CMI Only",
             "location": "Computer Lab",
             "contactPerson": "Karan Gupta",
             "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)"
+        },
+        {
+            "title": "Cookie Painting Workshop",
+            "time": "10:00 - 12:00",
+            "type": "CMI Only",
+            "location": "LH01",
+            "contactPerson": "Harshitha Mucherla",
+            "description": "Paint cookies and eat them!"
         },
         {
             "title": "Monologue Competition",
