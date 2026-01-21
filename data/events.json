@@ -174,14 +174,13 @@
             "contactPerson": "Neel Sinha",
             "description": "A prompt appears on the screen and you must keep speaking till we cut you off. Dramatic. Funny. SILLY."
         },
-        {
-            "title": "Hand and Brain Chess",
-            "time": "15:00 - 17:00",
+                {
+            "title": "Chiraayu's Board Game Evening",
+            "time": "15:30 - 19:30",
             "type": "CMI Only",
-            "location": "LH01",
-            "contactPerson": "Aadrita Paul, Thejas",
-            "description": "Hand-and-brain is a chess variant where each color is played by two people. One of them (the \"brain\") announces one of the six pieces—king, queen, rook, bishop, knight, or pawn—and the other player (the \"hand\") moves any of the named piece on the board that has a legal move. The catch: the \"brain\" cannot tell the specific move they want to play or give any hint to help the \"hand\" to figure it out.",
-            "link":"https://forms.gle/xjVPpvbrLwbpfG6p7"
+            "location": "DS Area",
+            "contactPerson": "Chiraayu Sneha Nanda",
+            "description": "A curated collection of board games by Chiraayu. No need to register: just show up, take a seat and have a good time. (Everyone is advised to show up on time to avoid not having a game free to play)"
         },
         {
             "title": "DJ Night",
@@ -194,12 +193,13 @@
     ],
     "day4": [
         {
-            "title": "Chirayu's Board Game Night",
-            "time": "1:00 - 4:00",
+            "title": "Hand and Brain Chess",
+            "time": "0:30 - 2:30",
             "type": "CMI Only",
-            "location": "DS Area",
-            "contactPerson": "Chirayu Nanda",
-            "description": "A curated collection of board games by Chirayu."
+            "location": "LH01",
+            "contactPerson": "Aadrita Paul, Thejas",
+            "description": "Hand-and-brain is a chess variant where each color is played by two people. One of them (the \"brain\") announces one of the six pieces—king, queen, rook, bishop, knight, or pawn—and the other player (the \"hand\") moves any of the named piece on the board that has a legal move. The catch: the \"brain\" cannot tell the specific move they want to play or give any hint to help the \"hand\" to figure it out.",
+            "link":"https://forms.gle/xjVPpvbrLwbpfG6p7"
         },
         {
             "title": "5 Minute Presentations",
