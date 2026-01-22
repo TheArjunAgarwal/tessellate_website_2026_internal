@@ -89,21 +89,21 @@
             "description": "Educate or entertain us with armed only with a presentation. No MATH, CS or PHYSICS allowed."
         },
         {
-            "title": "Tetris",
-            "time": "10:00 - 12:00",
-            "type": "CMI Only",
-            "location": "Seminar Hall",
-            "contactPerson": "Karan Gupta",
-            "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)",
-            "link" : "https://forms.gle/QeT5626ARBhhb9Vy5"
-        },
-        {
             "title": "FIFA",
-            "time": "13:00 - 16:00",
+            "time": "9:00 - 13:00",
             "type": "CMI Only",
             "location": "LH01",
             "contactPerson": "Kabir Singh, Naman Maheshwari, Tejas Sah, Neelabh Shome",
             "description": "Full Esports style FIFA tournament with projectors and controllers. We may also have clueless commentators.",
+            "link":"https://forms.gle/F7XxSUFF6Cunapfv7"
+        },
+        {
+            "title": "Tote Bag Block Printing",
+            "time": "13:00 - 14:00",
+            "type": "CMI Only",
+            "location": "Seminar Hall",
+            "contactPerson": "Harshitha Mucherla",
+            "description": "A workshop on printing Tote Bags with wooden blocks. You get to keep the bags!",
             "link":"https://forms.gle/F7XxSUFF6Cunapfv7"
         },
         {
@@ -112,8 +112,15 @@
             "type" : "CMI Only",
             "location": "NKN Hall",
             "contactPerson":"Arjun Maneesh Agarwal",
-            "description":"The Court is in Session. You will be given the case and testimonies and must make the argument (and objections). Part debate, part courtroom shenanigans and complete chaos.",
-            "link":"https://forms.gle/aWueDqKnKX2EWsCp6"
+            "description":"The Court is in Session. You will be given the case and testimonies and must make the argument (and objections). Part debate, part courtroom shenanigans and complete chaos."
+        },
+        {
+            "title": "Tetris",
+            "time": "16:00 - 18:00",
+            "type": "CMI Only",
+            "location": "Seminar Hall",
+            "contactPerson": "Karan Gupta",
+            "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)"
         },
         {
             "title": "Relay II",
