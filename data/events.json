@@ -113,13 +113,12 @@
             "description":"The Court is in Session. You will be given the case and testimonies and must make the argument (and objections). Part debate, part courtroom shenanigans and complete chaos."
         },
         {
-            "title": "Relay II",
-            "time": "16:00 - 17:00",
+            "title": "CMI vs IMSc Football",
+            "time": "16:00 - 18:00",
             "type": "open",
             "location": "Football Field",
-            "contactPerson": "Ishan Biswas",
-            "description": "Just the finals of a classic relay race",
-            "link":"https://docs.google.com/forms/d/e/1FAIpQLSegBaUqzTtCK235i1olIW_YmRaGEJmNE5A5SF-_G0kSfCdxjA/viewform?usp=sharing&ouid=115730640007094814055"
+            "contactPerson": "Debmalya Hazra",
+            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s."
         },
         {
             "title": "Cultural Night",
@@ -253,12 +252,13 @@
             "link": ""
         },
         {
-            "title": "CMI vs IMSc Football",
-            "time": "17:30 - 19:30",
+            "title": "Relay II",
+            "time": "18:00 - 19:00",
             "type": "open",
             "location": "Football Field",
-            "contactPerson": "Anwess Kumar Das",
-            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s."
+            "contactPerson": "Ishan Biswas",
+            "description": "Just the finals of a classic relay race",
+            "link":"https://docs.google.com/forms/d/e/1FAIpQLSegBaUqzTtCK235i1olIW_YmRaGEJmNE5A5SF-_G0kSfCdxjA/viewform?usp=sharing&ouid=115730640007094814055"
         },
         {
             "title": "Jane Street's Estimathon",
