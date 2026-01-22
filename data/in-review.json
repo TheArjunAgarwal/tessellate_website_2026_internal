@@ -1,8 +1,8 @@
-        {
-            "title": "Monologue Competition",
-            "time": "14:00 - 15:00",
-            "type": "CMI Only",
-            "location": "Seminar Hall",
-            "contactPerson": "Neel Sinha, Chiraayu Sneha Nanda",
-            "description": "A prompt appears on the screen and you must keep speaking till we cut you off. Dramatic. Funny. SILLY."
-        },
+  {
+    "id": "o1",
+    "title": "Treasure Hunt",
+    "description": "There is a coin hidden on campus. Find it! (You are allowed to compete in teams of any size but a majority of members must be CMI affiliated)",
+    "type": "open",
+    "contactPerson": "Arjun Maneesh Agarwal",
+    "location": "Campus Wide (or maybe more?)"
+  },
