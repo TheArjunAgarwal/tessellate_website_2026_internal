@@ -59,7 +59,7 @@
             "location": "DS Area",
             "contactPerson": "Vedant Neema",
             "description": "Ever wanted to try out DnD (or other TTRPGs)? This is your opportunity. There are DMs, adventures and pre-gens; all we need is your imagination.",
-            "link": ""
+            "link": "https://forms.gle/gHfrQCmnTVH3TpVt6"
         },
         {
             "title": "Badminton",
@@ -94,7 +94,8 @@
             "type": "CMI Only",
             "location": "Seminar Hall",
             "contactPerson": "Karan Gupta",
-            "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)"
+            "description": "1 v 1 tetris, Be the last to survive and take home a prize. (No matchups will clash with tug of war)",
+            "link" : "https://forms.gle/QeT5626ARBhhb9Vy5"
         },
         {
             "title": "FIFA",
@@ -111,7 +112,8 @@
             "type" : "CMI Only",
             "location": "NKN Hall",
             "contactPerson":"Arjun Maneesh Agarwal",
-            "description":"The Court is in Session. You will be given the case and testimonies and must make the argument (and objections). Part debate, part courtroom shenanigans and complete chaos."
+            "description":"The Court is in Session. You will be given the case and testimonies and must make the argument (and objections). Part debate, part courtroom shenanigans and complete chaos.",
+            "link":"https://forms.gle/aWueDqKnKX2EWsCp6"
         },
         {
             "title": "Relay II",
@@ -136,8 +138,7 @@
             "type": "CMI Only",
             "location": "NKN Hall",
             "contactPerson": "Qusai Nampurwala, Sania Rawat",
-            "description": "Don't play the odds, play the man!",
-            "link": ""
+            "description": "Don't play the odds, play the man!"
         }
     ],
     "day3": [
@@ -164,10 +165,11 @@
             "type": "CMI Only",
             "location": "DS Area + NKN Hall",
             "contactPerson": "Arjun Maneesh Agarwal",
-            "description": "Everyone gets a character and then someone dies. One of you put the body there and none of you can leave till we know who."
+            "description": "Everyone gets a character and then someone dies. One of you put the body there and none of you can leave till we know who.",
+            "link":"https://forms.gle/7gPczChvp9jdyYCTA"
         },
         {
-            "title": "Tug of War I",
+            "title": "Tug of War",
             "time": "9:00 - 15:00",
             "type": "CMI Only",
             "location": "Football Field",
@@ -251,8 +253,7 @@
             "type": "open",
             "location": "Football Field",
             "contactPerson": "Anwess Kumar Das",
-            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s.",
-            "link": ""
+            "description": "A completely friendly match between sister institutes. Not that it will stop us from whooping their *&%'s."
         },
         {
             "title": "Jane Street's Estimathon",
