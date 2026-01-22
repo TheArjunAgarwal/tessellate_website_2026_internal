@@ -2,7 +2,7 @@
     "day1": [
         {
             "title": "Opening (and the Scav List)",
-            "time" : "9:30 - 10:00",
+            "time" : "9:00 - 9:30",
             "type" : "CMI Only",
             "location":"Audi Foyer",
             "contactPerson":"Arjun Maneesh Agarwal, Harshitha Mucherla, Vighnesh Sangle",
@@ -10,7 +10,7 @@
         },
         {
             "title": "Balloon Battle Royale",
-            "time": "9:30 - 12:30",
+            "time": "9:30 - 11:30",
             "type": "CMI Only",
             "location": "Football Field",
             "contactPerson": "Harshitha Mucherla",
@@ -45,7 +45,7 @@
         },
         {
             "title": "Anti-Thesis",
-            "time": "17:00 - 19:30",
+            "time": "16:00 - 19:00",
             "type": "CMI Only",
             "location": "Seminar Hall",
             "contactPerson": "Anya Basu, Aditya Vashihsth",
@@ -54,7 +54,7 @@
         },
         {
             "title": "Convention DnD",
-            "time": "19:30 - 22:30",
+            "time": "19:15 - 22:00",
             "type": "CMI Only",
             "location": "DS Area",
             "contactPerson": "Vedant Neema",
@@ -63,7 +63,7 @@
         },
         {
             "title": "Badminton",
-            "time": "22:30 - 00:30",
+            "time": "22:00 - 24:00",
             "type": "CMI Only",
             "location": "Vollyball Court",
             "contactPerson": "Rhyin Mandal",
@@ -71,7 +71,7 @@
         },
         {
             "title": "Poetry Slam",
-            "time": "22:30 - 23:30",
+            "time": "22:00 - 23:00",
             "type": "CMI Only",
             "location": "NKN Hall",
             "contactPerson": "Animikha Dutta Dhar",
