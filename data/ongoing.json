@@ -1,4 +1,13 @@
 [
+    {
+    "id": "o1",
+    "title": "Mystery Hunt",
+    "description": "You receive some information and have to extract an answer out of it, which is almost always an English word or phrase. Puzzles can come in many different forms; the only real commonality is that you usually receive no direct instructions, so it’s up to you to figure out how to make sense of the information you’re given. \n We hope that it's going to be accessible to a large experience range of interested puzzlers. We'll devise a hint system if necessary (and be mad if you solve everything too easily)",
+    "type": "open",
+    "contactPerson": "Aadrita Paul, Romit Roy Chowdhury",
+    "location": "Campus Wide (or maybe more?)",
+    "link" : "https://chat.whatsapp.com/Fly5HVNu8fY7WftPfOoWYk"
+  },
   {
     "id": "o2",
     "title": "Scavenger Hunt",
